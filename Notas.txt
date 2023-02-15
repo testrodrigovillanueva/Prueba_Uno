@@ -8,3 +8,4 @@
 8.-git checkout commit especifico
 9.-git checkout -f Rama
 10.-git checkout -- nombre arhivo
+11.-Cambio 
