@@ -14,6 +14,7 @@ const tp=500
 const datos = ['Juan', 'Perez','juan@gmail.com','555555','Dirección demo','java'];
 //Mando a Llamar al archivo .env
 dotenv.config()
+//Esto es un cambio en el código
 
 test('Assert Uno', async ({ page }) => {
   page.setDefaultTimeout(8000);
