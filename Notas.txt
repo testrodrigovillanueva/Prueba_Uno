@@ -8,4 +8,5 @@
 8.-git checkout commit especifico
 9.-git checkout -f Rama
 10.-git checkout -- nombre arhivo
-11.-Cambio 
+11.-git config --global alias.lg "log --oneline --decorate --all --graph"    
+12.-git config --global alias.s "status -s -b"
