@@ -1,0 +1,10 @@
+1.-git init
+2.-git status
+3.-git log
+4.-git add .
+5.- git add *.doc
+6.-git commit -m "Demo comit"
+7.-git checkout -- .
+8.-git checkout commit especifico
+9.-git checkout -f Rama
+10.-git checkout -- nombre arhivo

@@ -1,0 +1,104 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Rodrigo/Documents/VIDEOS_UDEMY_ES/PLAYWRIGHT_JAVASCRIPT/Curso/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/Rodrigo/Documents/VIDEOS_UDEMY_ES/PLAYWRIGHT_JAVASCRIPT/Curso/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 20000
+      }
+    ],
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "Mis Reportes"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "Mis Reportes Json.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "configFile": "C:\\Users\\Rodrigo\\Documents\\VIDEOS_UDEMY_ES\\PLAYWRIGHT_JAVASCRIPT\\Curso\\playwright.config.js",
+    "rootDir": "C:/Users/Rodrigo/Documents/VIDEOS_UDEMY_ES/PLAYWRIGHT_JAVASCRIPT/Curso/tests",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.30.0",
+    "workers": 30,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "Assertions.spec.js",
+      "file": "Assertions.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Assert dos",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 20000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 5825,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-02-14T05:44:39.118Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Rodrigo\\Documents\\VIDEOS_UDEMY_ES\\PLAYWRIGHT_JAVASCRIPT\\Curso\\test-results\\Assertions-Assert-dos\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "add8f3c04cdcd95add13-7e55f785b31bffa954e5",
+          "file": "Assertions.spec.js",
+          "line": 36,
+          "column": 6
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "curso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test Assertions.spec.js",
+    "test_reportes": "npx playwright test  Reportes.spec.js  --headed  --reporter=line,allure-playwright",
+    "allure_reportes":"npx allure generate allure-results --clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.30.0",
+    "allure-playwright": "^2.0.0-beta.26"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "puppeteer": "^19.7.0",
+    "xlsx": "^0.18.5"
+  }
+}
