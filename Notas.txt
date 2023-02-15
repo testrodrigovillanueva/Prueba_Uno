@@ -10,3 +10,7 @@
 10.-git checkout -- nombre arhivo
 11.-git config --global alias.lg "log --oneline --decorate --all --graph"    
 12.-git config --global alias.s "status -s -b"
+
+git remote add origin https://github.com/testrodrigovillanueva/Prueba_Uno.git
+git branch -M main
+git push -u origin main
