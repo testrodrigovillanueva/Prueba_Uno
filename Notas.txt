@@ -10,6 +10,8 @@
 10.-git checkout -- nombre arhivo
 11.-git config --global alias.lg "log --oneline --decorate --all --graph"    
 12.-git config --global alias.s "status -s -b"
+13.-git push   -> sube la información
+14.-git pull -> descarga la información del repo
 
 git remote add origin https://github.com/testrodrigovillanueva/Prueba_Uno.git
 git branch -M main
